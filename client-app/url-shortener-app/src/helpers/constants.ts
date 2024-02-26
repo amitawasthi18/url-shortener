@@ -1,1 +1,1 @@
-export const serverUrl = "https://url-shortener-91el.onrender.com/api";
+export const serverUrl = "http://localhost:5001/api";
