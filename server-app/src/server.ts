@@ -13,7 +13,7 @@ const app = express();
 
 // CORS middleware
 app.use(cors({
-    origin: "http://127.0.0.1:3000", 
+    origin: "*", 
     credentials: true,
 }));
 

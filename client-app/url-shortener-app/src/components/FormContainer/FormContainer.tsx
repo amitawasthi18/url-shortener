@@ -13,7 +13,7 @@ const FormContainer: React.FunctionComponent<IFormContainerProps> = (props) => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      await axios.post(`${serverUrl}/shorturl`, { fullUrl: fullUrl }); // Change to HTTP
+      await axios.post(`${serverUrl}/shortUrl`, { fullUrl: fullUrl }); // Change to HTTP
       alert("URL Shortened Successfully");
       setFullUrl("");
       updateReloadState();
